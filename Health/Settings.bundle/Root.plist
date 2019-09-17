@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Development</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Endpoint</string>
+			<key>Key</key>
+			<string>endpoint_preference</string>
+			<key>DefaultValue</key>
+			<string>http://52.211.11.228/api/</string>
+			<key>Titles</key>
+			<array>
+				<string>Dev serv</string>
+				<string>Xenox-med</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>http://192.168.0.244:8070/api/</string>
+				<string>http://52.211.11.228/api/</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>User Info</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>User Id</string>
+			<key>Key</key>
+			<string>user_id_preference</string>
+			<key>DefaultValue</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

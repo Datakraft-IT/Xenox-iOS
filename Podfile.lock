@@ -1,0 +1,38 @@
+PODS:
+  - APIKit (3.1.1):
+    - Result (~> 3.0)
+  - Cartography (1.1.0)
+  - PromiseKit (4.4.0):
+    - PromiseKit/Foundation (= 4.4.0)
+    - PromiseKit/QuartzCore (= 4.4.0)
+    - PromiseKit/UIKit (= 4.4.0)
+  - PromiseKit/CorePromise (4.4.0)
+  - PromiseKit/Foundation (4.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.4.0):
+    - PromiseKit/CorePromise
+  - Result (3.2.3)
+
+DEPENDENCIES:
+  - APIKit (~> 3.1.1)
+  - Cartography (~> 1.1.0)
+  - PromiseKit (~> 4.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APIKit
+    - Cartography
+    - PromiseKit
+    - Result
+
+SPEC CHECKSUMS:
+  APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+
+PODFILE CHECKSUM: f8a5a2c6eaea3dc91193836045adb18c54ab6010
+
+COCOAPODS: 1.5.3
